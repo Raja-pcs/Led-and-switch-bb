@@ -2,7 +2,7 @@ import Adafruit_BBIO.GPIO as GPIO
 import time
 
 # Define GPIO pins for the LEDs
-leds = ["P9_12", "P9_15", "P9_23", "P9_27"]
+leds = ["P9_12", "P9_14", "P9_16", "P9_18"]
 
 # Setup the GPIO pins as output
 for led in leds:
