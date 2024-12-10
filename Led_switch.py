@@ -3,7 +3,7 @@ import time
 
 # Setup GPIO pins
 LED_PIN = "P9_12"  # GPIO1_28 (Change this as per your connection)
-SWITCH_PIN = "P9_15"  # GPIO1_16 (Change this as per your connection)
+SWITCH_PIN = "P9_41"  # GPIO1_16 (Change this as per your connection)
 
 # Set up GPIO mode and pins
 GPIO.setup(LED_PIN, GPIO.OUT)  # Set LED pin as output
